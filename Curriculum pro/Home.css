@@ -1,0 +1,72 @@
+*{
+    font-size:25px;
+    font-weight:bold;
+}
+
+
+
+
+.imagen{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+  width:100vw;
+    background-image:linear-gradient(rgba(67, 73, 78, 0.7), rgba(67, 73, 78, 0.7)),
+    url(../Curriculum\ pro/imag/fotoCamaras.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    
+  
+}
+ul{
+    color:white;
+    margin-left:10%;
+}
+.imagen p{
+    color:white;
+   font-family:trebuchet MS;
+   width:40%;
+   font-size:50px;
+   margin-left:10%;
+
+  
+}
+section{
+    background-color:beige;
+}
+.menu{
+    display:flex;
+    justify-content:flex-start;
+   
+    
+}
+.menu2{
+    display:flex;
+
+    justify-content:flex-end;
+    
+    width:100%;
+
+}
+p{
+    
+    width:5%;
+    text-align:center;
+}
+.menu p{
+    margin-left:10%;
+    width:10%;
+}
+.menu2 p{
+    margin-right:10px;
+}
+button{
+    border-radius:10px;
+    width:119%;
+    margin-left:276%;
+    
+}
+
