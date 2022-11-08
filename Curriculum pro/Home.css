@@ -2,28 +2,32 @@
 
 
 *{
+    box-sizing:border-box;
     font-size:25px;
     font-weight:bold;
 }
-
-
-
-
-.imagen{
+body{
+    width:100vw;
+     height:100vh;
+     margin:0px 0px;
+    
+   
+    
+}
+main{
+    margin-left:0px;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
     justify-content:center;
-  width:100vw;
     background-image:linear-gradient(rgba(67, 73, 78, 0.7), rgba(67, 73, 78, 0.7)),
     url(../Curriculum\ pro/imag/fotoCamaras.jpg);
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
-    height:100vh;
     
-  
 }
+
 ul{
     color:white;
     margin-left:10%;
@@ -33,45 +37,39 @@ ul{
    font-family:trebuchet MS;
    width:40%;
    font-size:50px;
-   margin-left:10%;
+   margin-left:25%;
 
   
 }
-section{
-    background-color:beige;
-}
-.menu{
-    display:flex;
-    justify-content:flex-start;
-   
-    
-}
-.menu2{
-    display:flex;
 
-    justify-content:flex-end;
+.container1{
+    margin-top:50px;
+    margin-left:50px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    color:beige;
+}
+.container2{
+    margin-left:50px;
+    color:beige;
+    display:flex;
+    justify-content:space-between;
+    gap:6em;
+    position:sticky;
     
-    width:100%;
-
 }
 p{
     
     width:5%;
     text-align:center;
 }
-.menu p{
-    margin-left:10%;
-    width:10%;
-}
-.menu2 p{
-    margin-right:10px;
-}
+
 button{
-    border-radius:10px;
-    width:119%;
-    margin-left:276%;
-    
+    margin-bottom:50px;
+    margin-left:38%;
 }
+
 @media only screen and (max-width:700px){
     body{
         background-color:blue;
